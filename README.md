@@ -33,7 +33,7 @@ public class Job1 : CronJobService
     }
 ```
 In this example was created a job class called Job1 that inherits from CronJobService interface.
-This interface forces you implement DoJob() method that you use to implement your job tasks. In this example when schedule was fired Job1 just write the message "HH:MM:SS JOB-1 schedule fired" on console.
+This interface forces you implement DoJob() method that you use to implement your job tasks. In this example when schedule is fired Job1 just write the message "HH:MM:SS JOB-1 schedule fired" on console.
 
 #### 2 - Register your job on Startup.cs class
 ```
