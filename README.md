@@ -59,7 +59,7 @@ public class Startup
         .
      }
 ```
-Here on Startup.cs class the job was registered on ConfigureServices method providing local time zone info and cron expression, in this example Job1 wil be fired evey minute. 
+Here on Startup.cs class the job was registered on ConfigureServices method providing local time zone info and cron expression, in this example Job1 will be fired evey minute. 
 
 #### 3 - Finish
 After start your WebApi the job will be fired based on cron expression schedule provided. 
