@@ -64,6 +64,9 @@ Here on Startup.cs class the job was registered on ConfigureServices method prov
 #### 3 - Finish
 After start your WebApi the job will be fired based on cron expression schedule provided. 
 
+### Complete usage example
+* https://github.com/francfbs/CronJobExpressUsing
+
 ## Dependencies
 * Cronos 0.7.0 (https://github.com/HangfireIO/Cronos)
 
