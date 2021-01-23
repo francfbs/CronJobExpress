@@ -59,10 +59,14 @@ public class Startup
         .
      }
 ```
-Here on Startup.cs class the job was registered on ConfigureServices method providing local time zone info and cron expression. 
+Here on Startup.cs class the job was registered on ConfigureServices method providing local time zone info and cron expression, in this example Job1 wil be fired evey minute. 
 
 #### 3 - Finish
 After start your WebApi the job will be fired based on cron expression schedule provided. 
 
 ## Dependencies
 * Cronos 0.7.0 (https://github.com/HangfireIO/Cronos)
+
+## Learn more about Crontab Expressions
+* https://docs.oracle.com/cd/E12058_01/doc/doc.1014/e12030/cron_expressions.htm
+* https://en.wikipedia.org/wiki/Cron
