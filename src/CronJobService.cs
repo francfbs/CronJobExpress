@@ -68,7 +68,7 @@ namespace CronJobExpress
 
         public void Dispose()
         {
-            _timer.Dispose();
+            _timer?.Dispose();
         }
 
         
