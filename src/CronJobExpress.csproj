@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>CronJobExpress</PackageId>
     <Authors>Francisco B. dos Santos</Authors>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <PackageProjectUrl>https://github.com/francfbs/CronJobExpress</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageDescription>This package is a simple way to implements schedule jobs on your Aspnet WebApi based on crontab expressions.</PackageDescription>
